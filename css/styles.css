@@ -21,6 +21,8 @@ body {
 }
 .nav .link {
     color: #2e2f42;
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 .nav .link:hover,
 .nav .link:focus {
