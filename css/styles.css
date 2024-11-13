@@ -13,41 +13,62 @@ body {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #2E2F42;
+    color: #4d5ae5;
     text-transform: uppercase;
 }
-.accent {
-    color: #4D5AE5;
-}
-.accent-after {
+.upstudio {
     color: #2e2f42;
 }
-.subtitle {
+.nav .link {
+    color: #2e2f42;
+}
+.nav .link:hover,
+.nav .link:focus {
+    color: #404bbf;
+}
+.subnav {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.subtitle .link:hover
-.subtitle .link:focus {
-    color: #404bbf;
-}
 .adres {
+    font-style: normal;
     color: #434455;
 }
 .mail {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.mail:hover
-.mail:focus {
+.adres .mail:hover, 
+.adres .mail:focus {
     color: #404bbf;
 }
+
 a:link {
     text-decoration: none;
 }
 ul {
     list-style-type: none;
 }
-.dark {
+.scn {
     background-color: #2E2F42;
+}
+.title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.btn{
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+    background-color: #404BBF;
 }
